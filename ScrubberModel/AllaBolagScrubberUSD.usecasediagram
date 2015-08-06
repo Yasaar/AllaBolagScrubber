@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="322d588c-66ca-4209-8a51-d271cbb51e91" name="AllaBolagScrubberUSD" linkedPackageId="f517de2c-5495-4319-8910-344d174b9d75" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="1d162a45-cf2f-4ba9-b3c5-b61951aceb02">
+      <profileInstance Id="28ae0447-8147-476f-9352-a3ed7967b0c0" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f79458e8-e814-4324-8292-da326808d4df">
+      <profileInstance Id="951aea34-d600-4156-8fdf-8a8dd7662921" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="48b7a53b-1cae-44e8-b25c-0179a6354c2f" name="ScrubberSystem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="150f5f1d-f01b-4551-ad9a-2999fd538c59" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="5767b500-13c2-4d06-9555-6b3cc06e924d" name="Get Company Information" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3228ef4c-8aeb-43a8-8240-7b98d2777947" />
+        <subjects>
+          <subsystemMoniker Id="48b7a53b-1cae-44e8-b25c-0179a6354c2f" LastKnownName="ScrubberSystem" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="9adad65f-9170-4e08-aa0d-504c8bb15c98" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="192d26c2-c405-4ade-b7b0-f035c191ddde" />
+        <targetEnds>
+          <association Id="c78650c3-6b63-406c-9322-5e58035035ba" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Get Company Information" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5767b500-13c2-4d06-9555-6b3cc06e924d" LastKnownName="Get Company Information" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ecd47a6a-3653-47e0-b5eb-f07c4f3cd172" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9adc614c-d83e-4c4f-bab1-a5c7e590c592" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f29a79cc-786d-4878-89a1-516985eaff0b" name="Get Company Information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="90e52b5e-b80c-49d6-926d-34e609a37c3a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bb342a70-85c7-495a-926e-d59bd7f9a2ee" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="f517de2c-5495-4319-8910-344d174b9d75" name="ScrubberModel">
+    <elementDefinition Id="8a47d366-ccf4-4a9d-b54f-7a28eada66ca" />
+  </package>
+</useCaseModelRoot>

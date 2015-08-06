@@ -1,0 +1,8 @@
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\ScreenScraperLib\bin\Debug\ScreenScraperLib.dll
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\ScreenScraperLib\bin\Debug\ScreenScraperLib.pdb
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\ScreenScraperLib\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\ScreenScraperLib\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\ScreenScraperLib\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\ScreenScraperLib\obj\Debug\ScreenScraperLib.csprojResolveAssemblyReference.cache
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\ScreenScraperLib\obj\Debug\ScreenScraperLib.dll
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\ScreenScraperLib\obj\Debug\ScreenScraperLib.pdb

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+    <body>
+        <script src="Scripts/jquery-2.1.1.js"></script>
+       
+        <b>Orginisations nr: </b>
+        <form>
+            <input type="text" id="orgNrID" name="orgNrName" />
+            <input type="button" id="getFromOrgNr"/>
+        </form>
+        <script>
+
+    $("#getFromOrgNr").click(function () {
+
+        baseUrl = "http://www.allabolag.se/?what="+$("#orgNrID").val().replace('-','');
+        alert(baseUrl);
+    });
+        </script>
+        <div>
+            <b>
+                VD:
+            </b>
+            <br />
+            <b>
+                Registreringsår:
+            </b>
+        </div>
+        <div>
+            <b>
+                F-Skatt:
+            </b>
+        </div>
+        <div>
+            <b>
+                Telefon:
+            </b>
+        </div>
+        <div>
+            <b>
+                BESÖKSADRESS
+            </b>
+            <br />
+        </div>
+        <div>
+            <b>
+                UTDELNINGSADRESS
+            </b>
+            <br />
+        </div>
+    </body>
+</html>

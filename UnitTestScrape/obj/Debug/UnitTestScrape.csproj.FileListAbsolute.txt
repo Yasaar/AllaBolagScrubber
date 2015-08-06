@@ -1,0 +1,10 @@
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\bin\Debug\UnitTestScrape.dll
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\bin\Debug\UnitTestScrape.pdb
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\bin\Debug\ScreenScraperLib.dll
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\bin\Debug\ScreenScraperLib.pdb
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\obj\Debug\UnitTestScrape.csprojResolveAssemblyReference.cache
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\obj\Debug\UnitTestScrape.dll
+C:\Users\Yasaar\Desktop\Yasaar for Framtiden\AllaBolagScrubber\UnitTestScrape\obj\Debug\UnitTestScrape.pdb

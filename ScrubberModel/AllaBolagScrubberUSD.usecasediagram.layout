@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AllaBolagScrubberUSD">
+  <useCaseModelRootMoniker Id="322d588c-66ca-4209-8a51-d271cbb51e91" />
+  <nestedChildShapes>
+    <actorShape Id="8a65af5d-a8b8-4a0c-b102-c514ad6dac99" absoluteBounds="1.75, 1.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="9adad65f-9170-4e08-aa0d-504c8bb15c98" LastKnownName="User" />
+      <relativeChildShapes />
+    </actorShape>
+    <SubsystemShape Id="b25bbf80-9196-41f1-ac0f-dff5bd507e3e" absoluteBounds="4, 1, 1.625, 1.875" customColor="White">
+      <subsystemMoniker Id="48b7a53b-1cae-44e8-b25c-0179a6354c2f" LastKnownName="ScrubberSystem" />
+      <nestedChildShapes>
+        <useCaseShape Id="6d4f29bf-4fe2-4439-a35d-d9c79c399bea" absoluteBounds="4.125, 1.625, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="5767b500-13c2-4d06-9555-6b3cc06e924d" LastKnownName="Get Company Information" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+    <useCaseAssociationConnector edgePoints="[(2.25 : 2); (4.125 : 2)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c78650c3-6b63-406c-9322-5e58035035ba" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="8a65af5d-a8b8-4a0c-b102-c514ad6dac99" />
+        <useCaseShapeMoniker Id="6d4f29bf-4fe2-4439-a35d-d9c79c399bea" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>
